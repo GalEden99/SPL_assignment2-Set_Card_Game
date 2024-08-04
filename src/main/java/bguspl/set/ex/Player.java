@@ -179,7 +179,7 @@ public class Player implements Runnable {
             return;
         }
         if(tokensCounter == 0 && table.tokensArray[slotNumFromQueue][id] == false){ // already used all tokens and tries to add another one.
-                return;
+            return;
         }
         boolean currentlyTokenPlaced;
         synchronized(table){
@@ -265,7 +265,7 @@ public class Player implements Runnable {
     public void returnToken(){
         tokensCounter++;
         if(tokensCounter > env.config.featureSize){
-            env.logger.warning("token counter of player " + id + " is " + tokensCounter + ". It's more than he could hava.");
+            env.logger.warning("token counter of player " + id + " is " + tokensCounter + ". It's more than he could have.");
         }
     }
 
