@@ -22,10 +22,8 @@ Supply the main thread that runs the table logics, the main thread that runs the
 4. Navigate to "set-game-main\src\main\java\bguspl\set\Main.java" and run the project.
 
 # How To Play
-1. At the bottom of the config.properties file, we define the 12 buttons for 2 human players as shown in the image:
-
-The first player plays with the 12 red buttons and the second player with the 12 blue buttons. Each key represents a slot.
-  
+1. At the bottom of the config.properties file, we define the 12 buttons for 2 human players. 
+Each key represents a slot. Each player controls 12 unique keys on the keyboard as follows.   
 2. When you press 3 different buttons, if the 3 form a set, you receive a point. Otherwise, you incur a penalty for a few seconds (as defined in the settings).
 3. If you press incorrectly, first press again the slots you pressed and wish to unpress.
 4. The winner is the player with the most points when no more sets are available in the deque.
@@ -35,7 +33,8 @@ The first player plays with the 12 red buttons and the second player with the 12
 2.	Employ synchronization concepts for a "Fair" game.
 3.	Fully support human players and computer players.
 
-
-
-
+# Screen Shots
+| | |
+|:-------------------------:|:-------------------------:|
+|<img style="max-width:200px; width:100%"  src="https://github.com/GalEden99/SPL_assignment2-Set_Card_Game/blob/master/images/initial%20table.png" alt="initialTable" >|<img style="max-width:200px; width:100%"  src="https://github.com/GalEden99/SPL_assignment2-Set_Card_Game/blob/master/images/table%20with%20tokens.png" alt="tableWithTokens" >
 
