@@ -227,7 +227,7 @@ public class Player implements Runnable {
      * @post - the player's score is increased by 1.
      * @post - the player's score is updated in the ui.
      */
-    synchronized public void point() {
+    synchronized public void point() {  
         int ignored = table.countCards(); // this part is just for demonstration in the unit tests
         env.ui.setScore(id, ++score);
         penalty(env.config.pointFreezeMillis);
